@@ -1,0 +1,15 @@
+.rick-and-morty-details {
+    border: 2px solid black;
+    width: 40%;
+    border-radius: 20px;
+    margin-top: 48px;
+    margin-inline: auto;
+    text-align: center;
+
+    li {
+        img {
+            width: 100%;
+            border-radius: 20px;
+        }
+    }
+}
