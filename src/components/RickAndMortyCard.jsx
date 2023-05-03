@@ -1,8 +1,12 @@
-function RickAndMortyCard({ name, image }) {
+import { NavLink } from "react-router-dom";
+
+function RickAndMortyCard({ name, image, id }) {
     return (
         <li className="rick-and-morty-card">
-            <img src={image} />
-            <p>{name}</p>
+            <NavLink to={`/character/${id}`}>
+                <img src={image} />
+                <p>{name}</p>
+            </NavLink>
         </li>
     )
 }
