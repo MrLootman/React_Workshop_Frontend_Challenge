@@ -1,11 +1,11 @@
 import NavBar from "./components/globals/NavBar"
-import Router from "./components/navigation/Router"
+import HomePage from "./components/pages/HomePage"
 
 function App() {
   return (
     <div className="app">
       <NavBar />
-      <Router />
+      <HomePage />
     </div>
   )
 }

@@ -1,17 +1,9 @@
-import { NavLink, useNavigate } from "react-router-dom";
-
-function RickAndMortyCard({ name, image, id }) {
-
-    const navigate = useNavigate()
-
+function RickAndMortyCard({ name, image }) {
     return (
-        <button onClick={() => {navigate(`/characters/${id}`, {state : {name, image, id}})   }}>
-            <li className="rick-and-morty-card">
+        <li className="rick-and-morty-card">
             <img src={image} />
             <p>{name}</p>
         </li>
-
-        </button>
     )
 }
 

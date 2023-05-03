@@ -1,21 +1,14 @@
-import { NavLink } from "react-router-dom";
-
 function NavBar() {
     return (
         <nav className="navbar">
             <ul>
                 <li>
-                    <NavLink to="/">
-                        Rick and Morty
-                    </NavLink>
+                    <h2>Rick and Morty</h2>
                 </li>
                 <li>
-                    <NavLink to="/contact">
-                        Contact us
-                    </NavLink>
+                    <h2>Contact Us</h2>
                 </li>
             </ul>
-
         </nav>
     )
 }
